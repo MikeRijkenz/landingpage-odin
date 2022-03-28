@@ -17,7 +17,7 @@
     font-size: 21px;
 }
 
-.nav-container, .header-container, .footer{
+.nav-container, .header-container, .subscribe-container ,.footer{
     background: url(/image/bg-image.jpg) no-repeat center fixed ;
 }
 .nav-links-container{
@@ -44,19 +44,15 @@
 .header-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     color: rgb(255, 246, 217);
     width: auto;
     height: 100vh;
     flex-wrap: wrap;
-}
-
-.header-image{
-    margin-left: 100px;
+    gap: 200px;
 }
 
 .header-text{
-    margin-right: 100px;
     width: 400px;
 }
 
@@ -103,12 +99,36 @@
     justify-content: center;
     height: 200px;
     width: auto;
+    gap: 10px;
+}
+
+
+.sub-image img{
+    width: 150px;
+    height: 150px;
 }
 
 .sub-card{
-    background-color: aqua;
-    height: 150px;
-    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+
+.sub-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    background: url(/image/grass.jpg) center no-repeat;
+}
+
+.sub-button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(32, 86, 107);
+    color: whites;
 }
 
 .footer{
